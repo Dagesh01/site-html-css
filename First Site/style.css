@@ -1,0 +1,35 @@
+header {
+    display: block;
+    width: auto;
+    height: 60px;
+    box-shadow: 1px 3px 3px rgb(129, 129, 129);
+}
+
+header img{
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.linklar {
+    display: inline;
+    float: right;
+    padding: 15px;
+    margin-right: 50px;
+}
+
+.linklar a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 25px;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+
+.linklar a:hover {
+    background: rgb(191, 255, 196);
+    transition: 0.5s;
+}
